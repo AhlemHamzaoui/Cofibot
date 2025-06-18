@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": ["salut", "bonjour", "hello", "coucou", "bonsoir"],
+      "responses": [
+        "Salut ! Comment puis-je t'aider ?",
+        "Bonjour ! Que puis-je faire pour toi ?",
+        "Hello ! Je suis CofiBot, ton assistant Coficab !"
+      ]
+    },
+    {
+      "tag": "procedure_iso",
+      "patterns": ["procédure iso", "norme iso", "certification qualité", "procédure qualité", "iso 9001"],
+      "responses": [
+        "Voici les procédures ISO de Coficab. Consulte le document qualité dans le dossier partagé.",
+        "Les procédures ISO sont disponibles sur notre serveur qualité."
+      ]
+    },
+    {
+      "tag": "conges_rh",
+      "patterns": ["congés", "vacances", "jours de congé", "RTT", "absence", "politique RH"],
+      "responses": [
+        "Pour les congés, consulte le guide RH ou contacte le service des ressources humaines.",
+        "Tes droits aux congés sont détaillés dans ton contrat et le règlement intérieur."
+      ]
+    },
+    {
+      "tag": "merci",
+      "patterns": ["merci", "merci beaucoup", "thanks", "parfait"],
+      "responses": ["De rien ! N'hésite pas si tu as d'autres questions.", "Avec plaisir ! Je suis là pour t'aider."]
+    }
+  ]
+}
