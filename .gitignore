@@ -1,0 +1,42 @@
+# Environnements virtuels Python
+venv/
+env/
+ENV/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Modèles entraînés (trop lourds pour Git)
+*.pkl
+*.joblib
+
+# Variables d'environnement
+.env
+.env.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+
+# Système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+build/
+dist/
