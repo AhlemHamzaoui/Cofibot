@@ -28,7 +28,7 @@ This repository contains the **backend API**, **RAG pipeline**, and **local LLM 
 | **Local LLM** | Ollama (`llama3.2:3b`) | Generates responses |
 | **RAG Engine** | Embeddings + Vector Search | Ensures factual answers |
 | **Backend API** | FastAPI | Manages requests and data processing |
-| **Data Layer** | CSV or PostgreSQL | Stores machine & production records |
+| **Data Layer** | CSV | Stores machine & production records |
 
 ---
 
@@ -51,8 +51,6 @@ This repository contains the **backend API**, **RAG pipeline**, and **local LLM 
 | `start_date`, `end_date` | Production period |
 | `idligne` | Related production line |
 
-### **3. Billing Data (optional)**
-For **cost estimation** and **efficiency KPIs**.
 
 ---
 
